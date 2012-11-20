@@ -3,7 +3,6 @@
   "version": "0.0.1",
   "description": "Check to see username availability across different websites.",
   "main": "realtor.js",
-  "preferGlobal": true,
   "dependencies": {
     "colors": "~0.6.0-1",
     "async": "~0.1.22",
@@ -12,7 +11,7 @@
   "bin": {
     "realtor": "./realtor.js"
   },
-  "repository": "",
-  "author": "",
+  "repository": "h",
+  "author": "Tim Cameron Ryan",
   "license": "MIT"
 }
