@@ -1,6 +1,6 @@
 {
   "name": "realtor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Check to see username availability across different websites.",
   "main": "realtor.js",
   "dependencies": {

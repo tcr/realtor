@@ -33,7 +33,7 @@ var services = module.exports = {
 		rem.url('https://www.google.com/accounts/CheckAvailability', {Email: username}).get(contentStatus(/is available/, next));
 	},
 	reddit: function (username, next) {
-		rem.url('https://www.reddit.com/user/', username).get(codeStatus(next));
+		rem.url('http://www.reddit.com/user/', username).get(codeStatus(next));
 	},
 	hackernews: function (username, next) {
 		rem.url('https://news.ycombinator.com/user', {id: username}).get(contentStatus(/No such user\./, next));
@@ -45,7 +45,7 @@ var services = module.exports = {
 		rem.url('http://instagram.com/', username).get(codeStatus(next));
 	},
 	pinterest: function (username, next) {
-		rem.url('http://pinterest.com/', username).get(codeStatus(next));
+		rem.url('http://pinterest.com/', username + '/').get(codeStatus(next));
 	}
 };
 
