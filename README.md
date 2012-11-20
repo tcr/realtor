@@ -26,7 +26,7 @@ npm install realtor
 ```javascript
 var realtor = require('realtor')
 var username = 'my_username';
-realtor.twitter(username, function (err, available) {
+realtor.twitter(username, function (err, available, url) {
 	console.log(username, available ? 'is' : 'is not', 'available.');
 });
 ```
